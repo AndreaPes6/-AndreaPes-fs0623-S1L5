@@ -1,0 +1,151 @@
+/*BODY*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital@1&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65;
+    text-align: center;
+}
+*{box-sizing: border-box;}
+
+h1, h2 {
+    font-family: 'montserrat', sans-serif;
+    color: #25a2c3 ;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 2.0em;
+    padding: 0px 0px 20px 0px;    
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+header {
+    background-color: black;
+    margin-bottom: 1.5em;
+}
+
+header img {
+    background-color: black;
+    padding: 5vh ; 
+    
+}
+
+nav {
+    padding: 15vh 20vw;
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header p {
+    display: block;
+    padding: 20px 0px 20px 0px; 
+}
+
+header a {
+    display: block;
+    border-radius: 10px 10px 10px 10px; 
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-size: 30px;
+    color: white;
+    background-color: #f04c2f ;
+    padding:20px; 
+    margin-top: 2.0em;
+}
+
+/* MAIN */
+.motivazioni {
+    display: block;
+    padding: 3vh;
+}
+.motivazioni h2 {
+    padding: 3vh;
+}
+.imgtonda {
+    border-radius: 50%;
+}
+
+.garanzia {
+    padding: 10vh;
+    margin-top: 15vh;
+    color: white;
+    background-color: #f04c2f ;
+    
+}
+
+.garanzia h2 {
+    color: white;
+    width: 350px;
+    font-size: 31px;
+    padding: 3vh;
+}
+
+.garanzia p {
+    padding: 5vh;
+}
+
+#Mario {
+    font-size: 25px;
+}
+
+/* ASIDE */
+aside {
+    padding: 20vh 5vh 5vh 5vh;
+}
+
+.strumenti {
+    display: block;
+    padding-top: 0vh;
+    padding-bottom: 5vh;
+    margin-bottom: 10vh;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0px 1px 1px 1px;
+    border-radius: 1%;
+}
+
+.contenuto {
+    margin-top: 2vh;
+}
+
+/* FOOTER */
+footer {
+    color: white;
+    background-color: #25a2c3;
+}
+
+footer h2 {
+    font-size: 40px;
+    padding: 3vh;
+}
+footer div {
+    padding: 3vh 0vh 3vh 0vh;
+}
+
+.info{
+    color: white;
+}
+
+.icon {
+    margin-right: 10px;
+    max-width: 5%;
+}
+
+#copy {
+    padding: 10vh;
+}
+
+#contattaci{
+    color: white;
+}
